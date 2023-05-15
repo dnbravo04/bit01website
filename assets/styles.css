@@ -117,7 +117,7 @@ h1 {
 }
 
 h1.secondary-page {
-    background-image: url('/bit01website/assets/forest.jpg');
+    background-image: url('forest.jpg');
     font-family: 'Josefin Sans', sans-serif;
 }
 
