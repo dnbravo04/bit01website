@@ -53,7 +53,7 @@ nav li a:hover {
 }
 
 #presentación-inicio {
-    background-image: url('forest.jpg');
+    background-image: url('/bit01website/assets/forest.jpg');
     height: 30rem;
     margin-top: 10px;
 }
