@@ -6,34 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/styles.css">
-    <title>3 hojas</title>
+    <script src="https://kit.fontawesome.com/a09d03aeb8.js" crossorigin="anonymous"></script>
+
+    <title>3 Hojas - Productos</title>
 </head>
+
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <img src="/assets/logo.png" alt="" srcset="">
-                </li>
+        <nav id="navbar" class="navigation">
+            <div id="logo-nav">
+                <img src="/assets/logo.png" alt="">
+            </div>
+            <ul id="links">
                 <li><a href="/index.html">Inicio</a></li>
                 <li><a href="./about-us.html">Sobre Nosotros</a></li>
                 <li><a href="./our-products.html">Nuestros Productos</a></li>
             </ul>
+            <a href="javascript:void(0);" class="icon" onclick="navbar()"><i class="fa-sharp fa-solid fa-bars"></i></a>
         </nav>
     </header>
-    <section id="">
-        <div id="Inicio">
-            <h1>Papeleria las 3 hojas</h1>
-            <h2>de los arboles a tu escritorio</h2>
-        </div>
-    </section>
-    <div id="grid-inicio">
+    <h1 class="secondary-page">Nuestros Productos</h1>
+    <div class="cards">
 
+        <div class="card">
+            <img src="/assets/paper.jpeg" alt="Papel">
+            <h3>Papel y sobres</h3>
+            <p>Papel de escritura, papel de carta y sobres de diferentes tamaños.</p>
+        </div>
+
+        <div class="card">
+            <img src="/assets/pen.webp" alt="Material de escritura">
+            <h3>Material de escritura</h3>
+            <p>Bolígrafos, lápices, resaltadores y marcadores.</p>
+        </div>
+
+        <div class="card">
+            <img src="/assets/tags.webp" alt="Material de escritura">
+            <h3>Productos de etiquetado</h3>
+            <p>Etiquetas, Rotuladoras y cintas, Etiquetas de identificación</p>
+        </div>
+        <div class="card">
+            <img src="/assets/folders.jpg" alt="Material de escritura">
+            <h3>Articulos de Escritorio</h3>
+            <p>Carpetas, archiveros, Organizadores portafolios y pisapapeles.</p>
+        </div>
+        <div class="card">
+            <img src="/assets/markers.jpg" alt="Material de escritura">
+            <h3>Suministros de presentación</h3>
+            <p>Marcadores, tableros, proyectores, pantallas.</p>
+        </div>
+        <div class="card">
+            <img src="/assets/materiales-de-oficina.jpg" alt="Material de escritura">
+            <h3>Material de Oficina</h3>
+            <p>Grapadoras, grapas, perforadoras, cinta adhesiva, clips y tijeras.</p>
+        </div>
+        <div class="card">
+            <img src="/assets/hardware.jpg" alt="Material de escritura">
+            <h3>Accesorios de PC</h3>
+            <p>imaPerifericos, soluciones graficas y de audio, venta de equipos armados y partes</p>
+        </div>
     </div>
+
+
     <footer>
-        Diego Bravo Arias - Taller BIT
+        <p>Diego Bravo Arias - BIT web development bootcamp</p>
     </footer>
+    <script>
+        function navbar() {
+            var x = document.getElementById("links")
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 
 </html>
