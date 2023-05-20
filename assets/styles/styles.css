@@ -53,7 +53,7 @@ nav li a:hover {
 }
 
 #presentación-inicio {
-    background-image: url('/bit01website/assets/forest.jpg');
+    background-image: url('/assets/images/forest.jpg');
     height: 30rem;
     margin-top: 10px;
 }
@@ -117,7 +117,7 @@ h1 {
 }
 
 h1.secondary-page {
-    background-image: url('forest.jpg');
+    background-image: url('/assets/images/forest.jpg');
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -289,4 +289,20 @@ footer p {
         width: 100%;
         height: auto;
     }
+
+    .contact-page {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .contact-form {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .contact-links{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
 }

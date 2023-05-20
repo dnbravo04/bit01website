@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a09d03aeb8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/bit01website/assets/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles.css">
     <title>3 Hojas - Sobre Nosotros</title>
 </head>
 
@@ -14,20 +14,21 @@
     <header>
         <nav id="navbar" class="navigation">
             <div id="logo-nav">
-                <img src="/bit01website/assets/logo.png" alt="">
+                <img src="/assets/images/logo.png" alt="">
             </div>
             <ul id="links">
-                <li><a href="/bit01website/index.html">Inicio</a></li>
+                <li><a href="/index.html">Inicio</a></li>
                 <li><a href="./about-us.html">Sobre Nosotros</a></li>
                 <li><a href="./our-products.html">Nuestros Productos</a></li>
-
+                <li><a href="./contact-me.html">Contactenos</a></li>
+                
             </ul>
             <a href="javascript:void(0);" class="icon" onclick="navbar()"><i class="fa-sharp fa-solid fa-bars"></i></a>
         </nav>
     </header>
     <h1 class="secondary-page">Acerca de Nosotros</h1>
     <h2 class="secondary-page">Nuestra misión</h2>
-    <img id="about-us-img-1" src="/bit01website/assets/bussiness.jpg" alt="Amariamos hacer negocios contigo">
+    <img id="about-us-img-1" src="/assets/images/bussiness.jpg" alt="Amariamos hacer negocios contigo">
     <p class="secondary-page">Nuestra misión es proporcionar productos de papelería de alta calidad y soluciones
         integrales a nuestros
         clientes, brindando un excelente servicio y satisfaciendo todas sus necesidades relacionadas con suministros de
@@ -51,7 +52,7 @@
         calidad, soluciones integrales y un servicio excepcional, mientras nos esforzamos por la sostenibilidad y la
         satisfacción del cliente.</p>
     <h2 class="secondary-page">Nuestra visión</h2>
-    <img id="about-us-img-2" src="/bit01website/assets/oficina2.jpeg" alt="Amariamos hacer negocios contigo">
+    <img id="about-us-img-2" src="/assets/images/oficina2.jpeg" alt="Amariamos hacer negocios contigo">
     <p class="secondary-page">Nuestra visión es convertirnos en la principal referencia en el mercado de suministros de papelería, reconocidos
         por nuestra excelencia en productos y servicios. Buscamos ser el proveedor preferido tanto para clientes
         individuales como para empresas, estableciendo relaciones duraderas y siendo la elección de confianza para todas
@@ -85,16 +86,7 @@
     <footer>
         <p>Diego Bravo Arias - BIT web development bootcamp</p>
     </footer>
-    <script>
-        function navbar() {
-            var x = document.getElementById("links")
-            if (x.style.display === 'none') {
-                x.style.display = 'block';
-            } else {
-                x.style.display = 'none';
-            }
-        }
-    </script>
+    <script src="assets/script/index.js"></script>
 </body>
 
 </html>

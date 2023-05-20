@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
     <script src="https://kit.fontawesome.com/a09d03aeb8.js" crossorigin="anonymous"></script>
     <title>3 Hojas - Papeleria</title>
 </head>
@@ -14,13 +14,13 @@
     <header>
         <nav id="navbar" class="navigation">
             <div id="logo-nav">
-                <img src="/bit01website/assets/logo.png" alt="">
+                <img src="/assets/images/logo.png" alt="">
             </div>
             <ul id="links">
-                <li><a href="/bit01website/index.html">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="./pages/about-us.html">Sobre Nosotros</a></li>
                 <li><a href="./pages/our-products.html">Nuestros Productos</a></li>
-
+                <li><a href="./pages/contact-me.html">Contactenos</a></li>
             </ul>
             <a href="javascript:void(0);" class="icon" onclick="navbar()"><i class="fa-sharp fa-solid fa-bars"></i></a>
         </nav>
@@ -28,7 +28,7 @@
     <section id="presentación-inicio">
         <div id="inicio">
             <span class="helper"></span>
-            <img src="assets/logo.png" alt="">
+            <img src="assets/images/logo.png" alt="">
         </div>
     </section>
     <div id="flex-grid">
@@ -38,8 +38,8 @@
             escritura hasta soluciones de organización, todo pensado para satisfacer tus requerimientos empresariales y
             personales.
         </div>
-        <div class="col img"><img src="assets/oficina1.png" alt=""></div>
-        <div class="col img"><img src="assets/oficina2.jpeg" alt=""></div>
+        <div class="col img"><img src="assets/images/oficina1.png" alt=""></div>
+        <div class="col img"><img src="assets/images/oficina2.jpeg" alt=""></div>
         <div class="col"> Somos una solución integral <strong>para tu hogar y tu oficina.</strong> Ofrecemos una amplia
             gama de productos y servicios que abarcan desde suministros de papelería hasta mobiliario y equipos, todo
             para brindarte comodidad y eficiencia en todos los aspectos de tu vida laboral y personal.</div>
@@ -47,8 +47,8 @@
                 Excepcionales.</a> Desde papel de alta calidad hasta artículos de escritura y accesorios de oficina,
             tenemos todo lo que necesitas para potenciar tu creatividad, aumentar tu productividad y llevar tus
             proyectos al siguiente nivel. Descubre nuestra amplia gama y encuentra la inspiración que buscas.</div>
-        <div class="col img"> <img src="assets/paper.jpeg" alt=""></div>
-        <div class="col img"> <img src="assets/bussiness.jpg" alt=""></div>
+        <div class="col img"> <img src="assets/images/paper.jpeg" alt=""></div>
+        <div class="col img"> <img src="assets/images/bussiness.jpg" alt=""></div>
         <div class="col"> Te invitamos a conocer más <a href="./pages/about-us.html">acerca de nosotros.</a> Nuestra
             papelería se destaca por ofrecer productos de calidad, un servicio al cliente excepcional y un enfoque
             sostenible. Explora nuestra historia, nuestros valores y descubre por qué somos la elección perfecta para
@@ -57,16 +57,7 @@
     <footer>
         <p>Diego Bravo Arias - BIT web development bootcamp</p>
     </footer>
-    <script>
-        function navbar() {
-            var x = document.getElementById("links")
-            if (x.style.display === 'none') {
-                x.style.display = 'block';
-            } else {
-                x.style.display = 'none';
-            }
-        }
-    </script>
+    <script src="assets/script/index.js"></script>
 </body>
 
 </html>
