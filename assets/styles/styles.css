@@ -53,7 +53,7 @@ nav li a:hover {
 }
 
 #presentación-inicio {
-    background-image: url('/assets/images/forest.jpg');
+    background-image: url('/bit01website/assets/images/forest.jpg');
     height: 30rem;
     margin-top: 10px;
 }
@@ -117,7 +117,7 @@ h1 {
 }
 
 h1.secondary-page {
-    background-image: url('/assets/images/forest.jpg');
+    background-image: url('/bit01website/assets/images/forest.jpg');
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -215,7 +215,7 @@ footer p {
 label{
     display: inline-block;
     text-align: right;
-    width: 140px;
+    width: 50%;
 }
 #contact-label{
     width: 90%;
@@ -227,11 +227,14 @@ input[type=text], input[type=email], textarea{
     border-radius: 6px;
     margin:15px;
 }
+.btn-center{
+    text-align: center;
+}
 input[name="contact"]{
     margin: 10px;
 }
 .social-images{
-    max-width: 50px;
+    max-width: 60px;
     margin: 20px;
 }
 
@@ -250,12 +253,18 @@ input[name="contact"]{
         position: fixed;
         width: 100%;
         left: 0px;
-        height: 25vh;
+        height: 30vh;
         background: #050505;
         top: 5.5em;
         text-align: center;
         transition: all .5s;
         display: none;
+    }
+    h1.secondary-page{
+        font-size: xx-large;
+    }
+    .contact-page{
+        display: block;
     }
 
     nav ul li {
@@ -324,18 +333,10 @@ input[name="contact"]{
     }
 
     .contact-page {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-    }
-
-    .contact-form {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-    .contact-links{
-        grid-area: 1 / 2 / 2 / 3;
+        display: block;}
+ 
+    input[type=text], input[type=email], textarea{
+        width: 90%;
     }
 
 }
