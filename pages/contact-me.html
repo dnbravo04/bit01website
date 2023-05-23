@@ -28,16 +28,40 @@
     <h1 class="secondary-page">Contactenos</h1>
     <div class="contact-page">
         <div class="contact-form">
-
+            <h2>Formulario de contacto:</h2>
+            <form action="" id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Ej: Juan Perez"><br>
+                <label for="phone">Telefono:</label>
+                <input type="text" id="phone" placeholder="Ej: 300-000-0000"><br>
+                <label for="email">Correo Electronico:</label>
+                <input type="email" name="email" id="email" placeholder="Ej: tucorreo@direccion.com"><br>
+                <label for="message">Dejanos un mensaje:</label>
+                <textarea name="message" id="message" placeholder="escribe aquí tu mensaje..."></textarea><br>
+                <label id="contact-label" for="contact">¿Por qué medio te gustaría ser contactado?</label><br>
+                <label for="phone-contact">telefono celular</label>
+                <input type="radio" name="contact" id="phone-contact" value="Telefono"><br>
+                <label for="wa-contact">WhatsApp</label>
+                <input type="radio" name="contact" id="wa-contact" value="WhatsApp"><br>
+                <label for="email-contact">Correo Electronico</label>
+                <input type="radio" name="contact" id="email-contact" value="Correo Electronico"><br>
+                <input type="submit" value="Enviar datos" id="submitData">
+            </form>
         </div>
         <div class="contact-links">
-
+            <h2>Nuestras redes sociales:</h2>
+            <a href="https://facebook.com" target="_blank"><img class="social-images" src="/assets/images/facebook.png"
+                    alt=""></a>
+            <a href="https://instagram.com" target="_blank"><img class="social-images"
+                    src="/assets/images/instagram.png" alt=""></a>
+            <a href="https://wa.me" target="_blank"><img class="social-images" src="/assets/images/whatsapp.png"
+                    alt=""></a>
         </div>
     </div>
     <footer>
         <p>Diego Bravo Arias - BIT web development bootcamp</p>
     </footer>
-    <script src="assets/script/index.js"></script>
+    <script src="/assets/scripts/index.js"></script>
 </body>
 
 </html>

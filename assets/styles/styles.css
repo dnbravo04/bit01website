@@ -132,7 +132,7 @@ h1.secondary-page,
 h2.secondary-page,
 ul.secondary-page,
 li.secondary-page {
-    color: aliceblue;
+    color: #ccc;
     margin: 10px;
 }
 
@@ -173,7 +173,7 @@ footer p {
     border: 1px solid #ccc;
     border-radius: 6px;
     margin: 10px;
-    background-color: aliceblue;
+    background-color: #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: inline-block;
 }
@@ -201,6 +201,39 @@ footer p {
     margin: 10px;
 }
 
+.contact-page{
+    display: flex;
+}
+.contact-form,.contact-links{
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-form, .contact-links{
+    color: #ccc;
+}
+label{
+    display: inline-block;
+    text-align: right;
+    width: 140px;
+}
+#contact-label{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+input[type=text], input[type=email], textarea{
+    padding: 6px;
+    border-radius: 6px;
+    margin:15px;
+}
+input[name="contact"]{
+    margin: 10px;
+}
+.social-images{
+    max-width: 50px;
+    margin: 20px;
+}
 
 @media screen and (max-width: 700px) {
 
@@ -231,11 +264,11 @@ footer p {
         line-height: 30px;
         width: 100%;
         text-align: left;
-        color: aliceblue;
+        color: #ccc;
     }
 
     nav ul li a {
-        color: aliceblue;
+        color: #ccc;
     }
 
     nav>a,
