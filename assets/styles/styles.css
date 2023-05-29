@@ -25,6 +25,7 @@ nav {
 #links {
     list-style-type: none;
     margin: 0;
+    margin-bottom: 25px;
     padding: 0;
     overflow: hidden;
     display: block;
