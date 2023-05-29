@@ -295,9 +295,8 @@ input[name="contact"]{
     }
 
     .col img,
-    .col .img {
-        height: 0;
-        width: 30px;
+    .col.img {
+        display: none;
     }
 
     .col {
